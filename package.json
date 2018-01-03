@@ -14,6 +14,8 @@
     "kelp": "^1.0.5",
     "kelp-body": "^1.4.1",
     "kelp-logger": "^1.1.0",
-    "kelp-send": "^1.0.3"
+    "kelp-render": "^1.0.2",
+    "kelp-send": "^1.0.3",
+    "pug": "^2.0.0-rc.4"
   }
 }

@@ -9,7 +9,7 @@ module.exports = {
         return results ? results.map(result => {
           return {
             title: result.nm,
-            description: [ result.cat, result.pubDesc ].join(' '),
+            description: [ result.cat, result.star, result.pubDesc].filter(Boolean).join(' / '),
             link: `http://maoyan.com/films/${result.id}`
           };
         }) : []
