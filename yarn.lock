@@ -323,9 +323,21 @@ kelp-render@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/kelp-render/-/kelp-render-1.0.2.tgz#996b0926a038b624bbf7952b7236485b0587bf12"
 
+kelp-route@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/kelp-route/-/kelp-route-2.0.0.tgz#e31f213c89afdd247aef4e1445e76169aaf04288"
+  dependencies:
+    path-to-regexp "*"
+
 kelp-send@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/kelp-send/-/kelp-send-1.0.3.tgz#7e9d71e83a2b146f59bdc2d1f8f26a07ff216419"
+
+kelp-static@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/kelp-static/-/kelp-static-1.2.5.tgz#d91c51c970d2499fe3eaacea1e92f6c93229026c"
+  dependencies:
+    mail2 latest
 
 kelp@^1.0.5:
   version "1.0.5"
@@ -468,6 +480,10 @@ path-is-absolute@^1.0.0:
 path-parse@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.5.tgz#3c1adf871ea9cd6c9431b6ea2bd74a0ff055c4c1"
+
+path-to-regexp@*:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-2.1.0.tgz#7e30f9f5b134bd6a28ffc2e3ef1e47075ac5259b"
 
 process-nextick-args@~1.0.6:
   version "1.0.7"

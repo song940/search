@@ -1,0 +1,46 @@
+html, body{
+  color: #333;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  font-size: 14px;
+}
+.container{
+  width: 45%;
+  margin-left: 8%;
+  overflow: hidden;
+}
+header{
+  padding: 16px;
+  background: #fafafa;
+}
+
+.results{
+  margin-top: 5%;
+}
+.result{
+  color: #333;
+  display: block;
+  padding: 10px;
+  background: #fff;
+  text-decoration: none;
+}
+.result:hover{
+  background: #eee;
+}
+.result-title{
+  color: #084999;
+  margin: 2px;
+}
+.result-description{
+  margin: 2px;
+}
+.result-link{
+  width: 50%;
+  color: #999;
+  font-size: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+}

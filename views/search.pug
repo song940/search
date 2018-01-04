@@ -1,0 +1,16 @@
+extends layout
+
+block head
+  link(rel="stylesheet", href="/css/search.css")
+
+block content
+  header.header
+    form(action='/search').container
+      input(name='q', placeholder="Search", value=query)
+  main.container
+    div.results
+      each item in results
+        a(href=item.link).result
+          h3.result-title=item.title
+          p.result-description=item.description
+          p.result-link=item.link
