@@ -42,6 +42,7 @@ app.use(route('/search', async (req, res, next) => {
         return [].concat.apply(cur, next);
       }, []);
     });
+    // res.send(results);
     res.render('search', { results, query: q });
 }));
 
