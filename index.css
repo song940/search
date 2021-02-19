@@ -1,0 +1,53 @@
+@import url(https://lsong.org/stylesheets/grid.css);
+@import url(https://lsong.org/stylesheets/form.css);
+@import url(https://lsong.org/stylesheets/button.css);
+
+body {
+  background-color: #f7f7f7;
+}   
+
+.container {
+  text-align: center;
+}
+
+.initial {
+  padding-top: 100px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#searchbox {
+  width: 640px !important;
+  font-family: monospace;
+  font-size: 16px !important;
+  padding: 14px !important;
+  border-radius: 5px !important;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 3px #ccc;
+  background-color: #fff;
+}
+
+.result h1.title {
+  display: none;
+}
+
+.result .logo {
+  width: 36px;
+  height: 36px;
+  margin-top: 5px;
+  margin-left: -100px;
+}
+
+.result form {
+  flex-direction: row;
+}
