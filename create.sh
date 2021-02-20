@@ -2,7 +2,7 @@
 
 curl -X POST -H 'content-type: application/json' 'https://elasticsearch.lsong.me/websearch/pages' -d '
 {
-  "title": "Node.js Cluster",
-  "description": "A single instance of Node.js runs in a single thread. To take advantage of multi-core systems, the user will sometimes want to launch a cluster of Node.js processes to handle the load.",
-  "url": "https://nodejs.org/dist/latest-v14.x/docs/api/cluster.html"
+  "title": "nodejs/node: Node.js JavaScript runtime - GitHub",
+  "description": "Node.js is an open-source, cross-platform, JavaScript runtime environment. It executes JavaScript code outside of a browser. For more information on using Node.js, see the Node.js Website.",
+  "url": "https://github.com/nodejs/node"
 }'

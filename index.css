@@ -51,3 +51,55 @@ form {
 .result form {
   flex-direction: row;
 }
+
+.search-result {
+  text-align: left;
+}
+
+.search-result-total {
+  color: #666;
+}
+
+.search-result-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.search-result-item {
+  width: 580px; 
+  margin: 5px -10px;
+  box-sizing: content-box;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.search-result-item:hover {
+  border: 1px solid #ccc;
+}
+
+.search-result-item a {
+  text-decoration: none;
+}
+
+.search-result-item a:hover {
+  text-decoration: underline;
+}
+
+.search-result-item h2 {
+  font-size: 18px;
+}
+
+.search-result-item p {
+  color: #494949;
+}
+
+.search-result-item h2,
+.search-result-item p {
+  margin: 3px 0;
+}
+
+.search-result-item-link {
+  color: #20692b;
+}
