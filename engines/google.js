@@ -1,6 +1,5 @@
 const cheerio = require('cheerio');
 const request = require('../request');
-const querystring = require('qs');
 
 module.exports = {
   name: 'google',

@@ -1,6 +1,7 @@
 const request = require('../request');
 
 module.exports = {
+  name: 'maoyan',
   search: async keyword => {
     return request(`http://api.maoyan.com/mmdb/search/integrated/keyword/list.json?almtype=1&ci=0&keyword=${encodeURIComponent(keyword)}`)
       .then(res => res.json())

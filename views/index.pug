@@ -1,10 +1,15 @@
 extends layout
 
 block head
-  link(rel="stylesheet", href="/css/index.css")
+  link(rel="stylesheet", href="/css/main.css")
 
 block content
   .container
-    h1 Search
-    form(action="/search")
-      input(name="q")
+    form.form.search-form
+      input(name='q', placeholder="Type keyword ...", value=keyword)
+    div.search-result-list
+      each item in results
+        a(href=item.link).search-result-item
+          h2.result-title=item.title
+        a(href=item.link).search-result-item-link=item.link
+        p.search-result-description=item.description

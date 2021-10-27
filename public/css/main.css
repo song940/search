@@ -1,36 +1,105 @@
-input{
+/* @import url(https://lsong.org/stylesheets/grid.css); 
+@import url(https://lsong.org/stylesheets/form.css);
+@import url(https://lsong.org/stylesheets/button.css); */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.container {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: lightblue;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5456aa00e4b0750e1090a911/1530803016953-YJ89HMYOAOYESN31TT0X/%27City+of+Toronto%27.+Illustration+by+Gary+Alphonso.?format=1500w);
+}
+
+input {
+  width: 90%;
+  max-width: 640px;
+  font-family: monospace;
+  font-size: 16px !important;
+  padding: 14px !important;
+  border-radius: 5px !important;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 3px #ccc;
+  background-color: #fff;
   outline: 0;
-  padding: 0.5em;
-  font-size: 1.1em;
-  width: 100%;
-  border-radius: 3px;
-  border: 1px solid rgba(0,0,0,0.15);
-  box-sizing: border-box;
-  box-shadow: 0 2px 3px rgba(0,0,0,0.06);
-  background: #fff;
-}
-input:focus{
-  border: 1px solid green;
 }
 
-@media screen and (max-width: 768px){
-	.container{
-    width: 95% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-	}
-	.header{
-		text-align: center;
-	}
-	.nav{
-		float: none;
-		display: block;
-	}
+.result h1.title {
+  display: none;
 }
 
-@media screen and (min-width: 768px){
-	.nav{
-		float: right;
-		display: inline-flex;
-	}
+.result .logo {
+  width: 36px;
+  height: 36px;
+  margin-top: 5px;
+  margin-left: -100px;
+}
+
+.result form {
+  flex-direction: row;
+}
+
+.search-result {
+  text-align: left;
+}
+
+.search-result-total {
+  color: #666;
+}
+
+.search-result-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.search-result-item {
+  width: 580px;
+  margin: 5px -10px;
+  box-sizing: content-box;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.search-result-item:hover {
+  border: 1px solid #ccc;
+}
+
+.search-result-item a {
+  text-decoration: none;
+}
+
+.search-result-item a:hover {
+  text-decoration: underline;
+}
+
+.search-result-item h2 {
+  font-size: 18px;
+}
+
+.search-result-item p {
+  color: #494949;
+}
+
+.search-result-item h2, .search-result-item p {
+  margin: 3px 0;
+}
+
+.search-result-item-link {
+  color: #20692b;
 }
